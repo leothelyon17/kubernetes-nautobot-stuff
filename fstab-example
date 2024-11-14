@@ -1,0 +1,2 @@
+rocky9-lab-node1,rocky9-lab-node2,rocky9-lab-node3:/ /etc/cluster-ceph-share/ ceph name=admin,mds_namespace=cephfs.cluster-ceph-share,noatime,_netdev 0 0
+rocky9-lab-node1,rocky9-lab-node2,rocky9-lab-node3:/ /etc/k8s-cephfs ceph name=admin,mds_namespace=k8s-cephfs,noatime,_netdev 0 0
